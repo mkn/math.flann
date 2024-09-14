@@ -1,0 +1,8 @@
+
+name: flann
+parent: base
+
+profile:
+- name: base
+  dep: org.boost
+  sub: flann&f(https://github.com/flann-lib/flann)
