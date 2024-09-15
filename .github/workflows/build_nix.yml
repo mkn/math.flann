@@ -28,6 +28,4 @@ jobs:
     - run: |
         sudo apt update && sudo apt install liblz4-dev ninja-build cmake
         curl -Lo mkn https://github.com/mkn/mkn/releases/download/latest/mkn_nix
-        chmod +x mkn
-        PATH="$PWD:$PATH" ./mkn.sh
-
+        chmod +x mkn && PATH="$PWD:$PATH" ./mkn.sh
